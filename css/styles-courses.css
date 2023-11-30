@@ -1,0 +1,792 @@
+/* Comienza la sección Smartphone */
+/* Comienza la sección Smartphone */
+/* Comienza la sección Smartphone */
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.elMago {
+  position: relative;
+  text-align: center;
+  background-color: #cbf144;
+}
+
+.elMago img {
+  padding-top: 10px;
+  width: 10rem;
+}
+
+.flex p {
+  text-align: center;
+  padding-top: 20px;
+  line-height: 1.3;
+  color: gray;
+}
+
+h1 {
+  position: relative;
+  color: white;
+  font-size: 45px;
+  letter-spacing: -0.03em;
+  display: block;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+
+h2 {
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+  color: #f3f3f3;
+}
+
+mark {
+  background-color: #d3f064;
+}
+
+h3 {
+  font-size: 60px;
+  padding: 20px 20px 20px 20px;
+}
+
+h4 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: red;
+  padding-bottom: 20px;
+  line-height: 1.6;
+  font-size: larger;
+}
+
+.scrollmenu {
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollmenu img {
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  border-radius: 30px;
+}
+
+.claseGratis {
+  background-color: #f3f3f3;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: grey;
+}
+
+.claseGratis h2 {
+  color: black;
+  line-height: 1.3;
+}
+
+.claseGratis p {
+  font-size: large;
+  line-height: 2;
+  color: grey;
+}
+
+.claseGratis iframe {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+.copywriting {
+  background-color: #f3f3f3;
+  color: black;
+  font-size: larger;
+  line-height: 2;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.copywriting a {
+  text-align: center;
+  text-decoration: none;
+  background-color: red;
+  line-height: 1;
+  color: white;
+  font-weight: 510;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-large;
+  width: 80%;
+  transition: 0.3s;
+}
+
+.copywriting a:hover {
+  background-color: #fae366;
+  -webkit-transform: scale(1.2);
+  color: black;
+  font-size: x-large;
+  font-weight: 600;
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.copywriting img {
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.copywriting div {
+  width: 70%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.claseGratis img {
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.compraCurso {
+  color: white;
+  font-size: larger;
+  line-height: 2;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.compraCurso h2 {
+  line-height: 1.2;
+}
+
+.compraCurso mark {
+  background-color: red;
+  color: white;
+}
+
+.descripcionCurso {
+  color: white;
+  font-size: larger;
+  line-height: 2;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.descripcionCurso h2 {
+  font-size: xx-large;
+  line-height: 1;
+}
+
+.descripcionCurso h3 {
+  font-size: larger;
+  color: #f3f3f3;
+}
+
+.descripcionCurso img {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.descripcionCurso a {
+  text-align: center;
+  text-decoration: none;
+  background-color: #cbf144;
+  line-height: 1;
+  color: black;
+  font-weight: 550;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-large;
+  width: 80%;
+  transition: 0.3s;
+}
+
+.descripcionCurso a:hover {
+  background-color: #fae366;
+  -webkit-transform: scale(1.2);
+  color: black;
+  font-size: x-large;
+  font-weight: 600;
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.descripcionProductor {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-style: dashed;
+  color: #d3f064;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.descripcionAfiliado {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  background-color: #f3f3f3;
+  color: black;
+  text-align: center;
+  padding: 1px 20px 20px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.descripcionAfiliado p {
+  padding-bottom: 5px;
+}
+
+.descripcionAfiliado iframe {
+  border-radius: 10px;
+}
+
+.descripcionAfiliado h4 {
+  padding-bottom: 10px;
+}
+
+.descripcionAfiliado h3 {
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.mensaje {
+  position: relative;
+  color: whitesmoke;
+  font-size: large;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.bonos {
+  text-align: center;
+  color: whitesmoke;
+  padding: 10px 20px 20px 10px;
+  line-height: 1.5;
+}
+
+.bonos img {
+  width: 90%;
+  text-align: center;
+}
+
+.construccion {
+  position: relative;
+
+  font-size: small;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.construccion p {
+  color: gray;
+  padding-bottom: 40px;
+  font-size: large;
+}
+
+.construccion a {
+  text-align: center;
+  text-decoration: none;
+  background-color: #d3f064;
+  color: black;
+  font-weight: 550;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-large;
+  width: 80%;
+  transition: 0.3s;
+}
+
+.construccion a:hover {
+  background-color: #fae366;
+  -webkit-transform: scale(1.2);
+  color: black;
+  font-size: x-large;
+  font-weight: 600;
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  background-color: black;
+  color: #fffaf0;
+  font-size: small;
+}
+
+footer p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+#videoFondo {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.4;
+}
+
+/* CSS del Navbar */
+
+#navegador {
+  max-width: 575px;
+  width: 100%;
+  position: absolute;
+}
+
+#navbar img {
+  float: left;
+  width: 170px;
+  margin-left: 10px;
+}
+
+#navbar {
+  background-color: #cbf144;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 4;
+  filter: opacity(90%);
+}
+
+#navbar span {
+  font-size: 35px;
+  cursor: pointer;
+  color: white;
+  float: right;
+  margin-right: 10px;
+}
+
+#navbar a {
+  float: right;
+  color: black;
+  padding: 15px;
+  text-decoration: dashed;
+  text-decoration-color: red;
+  font-size: 20px;
+}
+
+#navbar a:hover {
+  background-color: #bfb5a1;
+  color: black;
+  transition: 0.3s;
+}
+
+.compraCurso img {
+
+  width: 100%;
+  text-align: center;
+}
+
+/* Fin de Css el Navbar */
+
+.custom-social-proof {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999999999999 !important;
+  font-family: 'Open Sans', sans-serif;
+  display: none;
+  /* Uncomment This Line to Hide Initially*/
+}
+.custom-social-proof .custom-notification {
+  width: 320px;
+  border: 0;
+  text-align: left;
+  z-index: 99999;
+  box-sizing: border-box;
+  font-weight: 400;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px 2px rgba(11, 10, 10, 0.2);
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+.custom-social-proof .custom-notification .custom-notification-container {
+  display: flex !important;
+  align-items: center;
+  height: 80px;
+}
+.custom-social-proof .custom-notification .custom-notification-container .custom-notification-image-wrapper img {
+  max-height: 75px;
+  width: 90px;
+  overflow: hidden;
+  border-radius: 6px 0 0 6px;
+  object-fit: cover;
+}
+.custom-social-proof .custom-notification .custom-notification-container .custom-notification-content-wrapper {
+  margin: 0;
+  height: 100%;
+  color: gray;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0 6px 6px 0;
+  flex: 1;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+.custom-social-proof .custom-notification .custom-notification-container .custom-notification-content-wrapper .custom-notification-content {
+  font-family: inherit !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 14px;
+  line-height: 16px;
+}
+.custom-social-proof .custom-notification .custom-notification-container .custom-notification-content-wrapper .custom-notification-content small {
+  margin-top: 3px !important;
+  display: block !important;
+  font-size: 12px !important;
+  opacity: 0.8;
+}
+.custom-social-proof .custom-notification .custom-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  height: 12px;
+  width: 12px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  transform: rotate(45deg);
+  opacity: 0;
+}
+.custom-social-proof .custom-notification .custom-close::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: gray;
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+.custom-social-proof .custom-notification .custom-close::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 2px;
+  background-color: gray;
+  position: absolute;
+  left: 5px;
+  top: 0;
+}
+.custom-social-proof .custom-notification:hover .custom-close {
+  opacity: 1;
+}
+ 
+
+/* Comienza la sección Ipad */
+/* Comienza la sección Ipad */
+/* Comienza la sección Ipad */
+
+@media only screen and (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    background-color: black;
+  }
+
+  .elMago {
+    position: relative;
+    text-align: center;
+    background-color: #cbf144;
+  }
+
+  .elMago img {
+    padding-top: 10px;
+    width: 10rem;
+  }
+
+  h1 {
+    position: relative;
+    color: white;
+    font-size: 6rem;
+    letter-spacing: -0.08em;
+    line-height: 1.1;
+    display: block;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+  }
+
+  h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    color: #f3f3f3;
+  }
+
+  .mensaje {
+    position: relative;
+    color: whitesmoke;
+    font-size: x-large;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+
+  .construccion {
+    position: relative;
+
+    font-size: larger;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .construccion p {
+    color: gray;
+    padding-bottom: 20px;
+  }
+
+  .construccion a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #d3f064;
+    color: black;
+    font-weight: 550;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    width: 50%;
+    transition: 0.3s;
+  }
+
+  .construccion a:hover {
+    background-color: #fae366;
+    -webkit-transform: scale(1.2);
+    color: black;
+    font-size: x-large;
+    font-weight: 600;
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
+
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background-color: black;
+    color: #fffaf0;
+    font-size: small;
+  }
+
+  #videoFondo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.4;
+  }
+
+  .pc {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .descripcionCurso {
+    color: white;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .descripcionCurso img {
+    width: 50%;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 20px;
+  }
+
+  .descripcionCurso h1 {
+    font-size: 70px;
+  }
+
+  .descripcionCurso h2 {
+    font-size: 40px;
+  }
+
+  .descripcionCurso p {
+    font-size: 20px;
+  }
+
+  .descripcionAfiliado {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    background-color: #f3f3f3;
+    color: black;
+    text-align: center;
+    padding: 1px 20px 20px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .descripcionAfiliado p {
+    font-size: larger;
+    padding-bottom: 5px;
+  }
+
+  .descripcionAfiliado iframe {
+    border-radius: 10px;
+  }
+
+  .descripcionAfiliado h4 {
+    padding-bottom: 10px;
+  }
+
+  .descripcionAfiliado h3 {
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .mensaje {
+    position: relative;
+    color: whitesmoke;
+    font-size: large;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  .bonos {
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px 20px 20px 10px;
+    line-height: 1.5;
+  }
+
+  .bonos img {
+    width: 90%;
+    text-align: center;
+  }
+
+  .scrollmenu img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .descripcionProductor {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-style: dashed;
+    color: #d3f064;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .copywriting {
+    text-align: center;
+  }
+  .copywriting a {
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    line-height: 1;
+    color: white;
+    font-weight: 510;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: xx-large;
+    width: 50%;
+    transition: 0.3s;
+  }
+
+  .copywriting a:hover {
+    background-color: #fae366;
+    -webkit-transform: scale(1.2);
+    color: black;
+    font-size: xx-large;
+    font-weight: 600;
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
+
+  .copywriting img {
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
